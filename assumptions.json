@@ -1,0 +1,151 @@
+{
+  "study": {
+    "title": "Conceptual 1 MW CRAH loop: fixed- and variable-speed pumping",
+    "version": "1.2",
+    "status": "Independent educational simulation; illustrative hardware and hydraulic losses",
+    "date": "2026-10-19",
+    "boundary": "Closed secondary loop, pump set, common supply/return headers, equivalent balanced CRAH coil/control-valve bank, and secondary side of external-plant heat exchanger. Refrigeration, air side and primary pumps excluded."
+  },
+  "thermal": {
+    "classification": "Declared design assumptions",
+    "full_load_heat_W": 1000000.0,
+    "water_supply_C": 12.5,
+    "water_return_design_C": 17.5,
+    "delta_T_K": 5.0,
+    "load_fractions": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "note": "Maintain 5 K across equivalent coils at all studied loads. Required flow scales with load. This is a thermal demand assumption, not a coil or rack-temperature verification. Pump heat is additional external-plant duty, excluded from the 1 MW coil heat balance."
+  },
+  "water": {
+    "classification": "Sourced properties, rounded, held constant",
+    "property_temperature_C": 15.0,
+    "reference_pressure_MPa_absolute": 0.101325,
+    "density_kg_m3": 999.1,
+    "cp_J_kg_K": 4188.55,
+    "dynamic_viscosity_Pa_s": 0.001138,
+    "density_viscosity_source": "ITTC 7.5-02-01-03 revision 02 (2011), Table 1, page 6, 15 C row. Density 999.1026 kg/m3 and viscosity 0.001138 Pa s at 0.101325 MPa.",
+    "density_viscosity_url": "https://www.ittc.info/media/7989/75-02-01-03.pdf",
+    "cp_source": "Calculated from IAPWS SR6-08(2011), Table 2 page 5 with Table 1 coefficients page 4 at 288.15 K: 4188.546017894 J/(kg K), rounded. Section 2.4 permits cp at atmospheric pressure to be taken equal to cp at 0.1 MPa. See water_properties.py and published Table 8 checks.",
+    "cp_url": "https://iapws.org/technical-guidance/release/LiquidWater.download",
+    "note": "Reference pressure is for property evaluation, not the selected loop fill pressure. Ignore modest liquid-property pressure dependence. No glycol."
+  },
+  "network": {
+    "classification": "Illustrative equivalent turbulent-flow head budgets; not measured or dimensioned pipework",
+    "gravity_m_s2": 9.81,
+    "common_pipe_headers_design_head_m": 6.0,
+    "external_HX_secondary_design_head_m": 4.0,
+    "equivalent_coil_bank_design_head_m": 8.0,
+    "valve_fully_open_design_head_m": 2.0,
+    "each_pump_branch_design_head_m": 2.0,
+    "common_pipe_internal_diameter_m": 0.2,
+    "pump_branch_internal_diameter_m": 0.125,
+    "valve_Kv_rangeability": 25.0,
+    "valve_max_differential_head_m": 30.0,
+    "static_operating_head_m": 0.0,
+    "note": "All common losses scale as (total flow / design total flow)^2. Each pump-branch loss scales as (its branch flow / design per-pump flow)^2. Branch budget includes branch pipework, two fully open isolation valves and one forward-flow check valve. Off branches carry zero flow with functioning check valves; failed branch isolated. Coil bank and its synchronized two-way valves are lumped equivalents, not coils connected in series.",
+    "resistance_multiplier": 1.0,
+    "reference_total_flow_m3_s": 0.04779223410152233
+  },
+  "pumps": {
+    "classification": "Entirely illustrative curves and operating envelope; no equipment selected",
+    "installed_count": 3,
+    "design_duty_count": 2,
+    "nominal_speed_rpm": 1450.0,
+    "design_pump_head_m": 24.0,
+    "shutoff_head_at_nominal_m": 32.0,
+    "min_running_speed_fraction": 0.5,
+    "max_running_speed_fraction": 1.0,
+    "min_flow_ratio_to_speed_scaled_BEP": 0.45,
+    "max_flow_ratio_to_speed_scaled_BEP": 1.2,
+    "pump_peak_efficiency": 0.8,
+    "pump_efficiency_parabola_coefficient": 0.35,
+    "motor_efficiency": 0.93,
+    "motor_shaft_rating_kW_each": 11.0,
+    "fixed_speed_drive_efficiency": 1.0,
+    "future_VFD_efficiency_assumption": 0.97,
+    "note": "Choose per-pump BEP flow = design total / 2 and BEP head = 24 m before constructing H = 32*s^2 - 8*(q/q_BEP)^2. Efficiency = 0.80 - 0.35*(q/(s*q_BEP)-1)^2, valid only in declared flow envelope. Efficiencies, motor rating and limits are educational assumptions, not manufacturer guarantees. Off pump input power = 0; auxiliaries omitted. Reference BEP flow and network reference total flow are now explicit fixed hardware inputs; editing thermal duty does not automatically resize the hardware.",
+    "reference_BEP_flow_m3_s": 0.023896117050761164
+  },
+  "control": {
+    "classification": "Declared baseline controller",
+    "mode": "Fixed nominal speed, minimum feasible duty-pump count, equivalent two-way valve modulates to total required flow",
+    "maximum_running_count": 2,
+    "note": "Evaluate each candidate pump count at requested flow, solve required valve resistance, enforce speed/flow/valve/motor limits, then independently intersect pump and selected system curves. No bypass. No transient simulation, hysteresis or timing model. Standby restores lost duty position after a pump outage.",
+    "terminal_min_differential_head_m": 2.0
+  },
+  "comparison": {
+    "classification": "Illustrative study assumptions; no measured operating profile or real equipment selection",
+    "load_fractions": [
+      0.4,
+      0.7,
+      1.0
+    ],
+    "pressure_strategy": "Idealised remote terminal differential-pressure reset, with valve flow control and speed/flow limit overrides",
+    "pressure_sensor_location": "Across representative balanced CRAH coil and equivalent two-way control valve; upstream common pipes/HX and individual pump branches excluded from remote reading",
+    "minimum_pressure_note": "Remote terminal DP at least 2 m water (~19.6 kPa), and at least the hydraulic coil plus fully-open valve drop. A control/service floor, not static elevation. This illustrative value is not manufacturer validated.",
+    "staging_rule": "Fewest feasible duty pumps, maximum two, for BOTH strategies. At 40/70/100% the base schedule is 1/2/2. Alternative staging is a separately labelled challenge, excluded from headline annual energy.",
+    "annual_profiles": {
+      "reference": {
+        "hours": [
+          3504,
+          3504,
+          1752
+        ],
+        "description": "40% of hours at 40% load, 40% at 70%, 20% at 100%; entirely illustrative"
+      },
+      "partial_load_heavy": {
+        "hours": [
+          6132,
+          1752,
+          876
+        ],
+        "description": "70/20/10% of hours at 40/70/100% load"
+      },
+      "full_load_heavy": {
+        "hours": [
+          438,
+          438,
+          7884
+        ],
+        "description": "5/5/90% of hours at 40/70/100% load"
+      }
+    },
+    "sensitivity": {
+      "resistance_multipliers": [
+        0.8,
+        1.0,
+        1.1
+      ],
+      "terminal_pressure_floors_m": [
+        2.0,
+        8.0,
+        12.0
+      ],
+      "efficiency_packages": {
+        "reference": {
+          "pump_peak_efficiency": 0.8,
+          "pump_efficiency_parabola_coefficient": 0.35,
+          "motor_efficiency": 0.93,
+          "future_VFD_efficiency_assumption": 0.97
+        },
+        "adverse": {
+          "pump_peak_efficiency": 0.72,
+          "pump_efficiency_parabola_coefficient": 0.5,
+          "motor_efficiency": 0.9,
+          "future_VFD_efficiency_assumption": 0.9
+        }
+      },
+      "infeasible_challenges": {
+        "network_multiplier": 1.25,
+        "terminal_pressure_floor_m": 14.0
+      },
+      "resistance_definition": "Multiplier applies to common pipes, plant HX, coil bank and each pump branch. Control valve capacity/rangeability remain those of unchanged hardware.",
+      "range_interpretation": "Bounded scenario envelope, not a probability distribution or confidence interval. Infeasible duty cases have no comparable annual-energy estimate."
+    },
+    "outage_note": "Remove P1, P2 and P3 in turn. Classify role before removal from normal dispatch. No failed-branch leakage. Final steady state after successful substitution only. Annual profile represents normal operation; failure frequencies, durations and starting/standby energy omitted."
+  }
+}

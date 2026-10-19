@@ -1,0 +1,5 @@
+# Versions used for the released plots, PDF and release checks.
+# The hydraulic model and engineering checks use Python's standard library.
+Pillow==12.3.0
+reportlab==4.4.9
+pypdf==6.10.0
