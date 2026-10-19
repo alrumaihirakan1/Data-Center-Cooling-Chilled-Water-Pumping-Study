@@ -1,0 +1,178 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "Current assumptions match comparison outputs",
+      "passed": true,
+      "evidence": "dbc2cfd0e0b2979a9f220810d71aa113b1677fa3f917164162c2ae8dfb170543"
+    },
+    {
+      "name": "All six normal and eighteen one-unavailable duties feasible",
+      "passed": true,
+      "evidence": {
+        "normal": 6,
+        "outages": 18
+      }
+    },
+    {
+      "name": "Independent 70% VSD head/efficiency/power reproduction",
+      "passed": true,
+      "evidence": {
+        "flow_m3_s": 0.03345456387106562,
+        "speed_fraction": 0.677772085586298,
+        "pump_head_m": 10.780000000000001,
+        "pump_efficiency": 0.7996235579587179,
+        "motor_efficiency": 0.93,
+        "drive_efficiency": 0.97,
+        "input_kW": 4.90017777772592
+      }
+    },
+    {
+      "name": "40% flow constraint binds and residual throttling is retained",
+      "passed": true,
+      "evidence": {
+        "speed_fraction": 0.6666666666666667,
+        "valve_loss_m": 4.942222222222222,
+        "scaled_flow_ratio": 1.1999999999999997
+      }
+    },
+    {
+      "name": "Independent hydraulic intersections and flow/branch continuity",
+      "passed": true,
+      "evidence": {
+        "points": 128,
+        "max_m3_s_error": 6.938893903907228e-18
+      }
+    },
+    {
+      "name": "Independent branch/shared/terminal head balances",
+      "passed": true,
+      "evidence": {
+        "max_head_error_m": 1.0658141036401503e-14
+      }
+    },
+    {
+      "name": "Heat removal at the same assumed 5 K",
+      "passed": true,
+      "evidence": {
+        "max_heat_balance_error_W": 1.1641532182693481e-10
+      }
+    },
+    {
+      "name": "Independent electrical input at actual head/flow/efficiency",
+      "passed": true,
+      "evidence": {
+        "max_relative_error": 4.565198276983811e-16
+      }
+    },
+    {
+      "name": "Feasible points satisfy every speed/flow/valve/pressure/motor limit",
+      "passed": true,
+      "evidence": {
+        "points_checked": 128
+      }
+    },
+    {
+      "name": "Both strategies deliver equivalent required flow with every availability case",
+      "passed": true,
+      "evidence": {
+        "max_difference_m3_s": 0.0
+      }
+    },
+    {
+      "name": "Outage dispatch uses healthy pumps and classifies pre-outage role correctly",
+      "passed": true,
+      "evidence": "At 40% P1 runs, P2 is a staged-off duty pump and P3 is designated standby; at 70/100% P1/P2 run and P3 is standby."
+    },
+    {
+      "name": "Identical healthy pumps reproduce the same final-state power after substitution",
+      "passed": true,
+      "evidence": "No detection/startup/changeover dynamics inferred."
+    },
+    {
+      "name": "All profiles sum to 8760 h and annual energy is independently weighted",
+      "passed": true,
+      "evidence": {
+        "comparable": true,
+        "hours": [
+          3504,
+          3504,
+          1752
+        ],
+        "fixed_kWh": 95756.4689511359,
+        "variable_kWh": 50627.80074276148,
+        "savings_kWh": 45128.66820837442,
+        "savings_percent": 47.12858431674562,
+        "contributions_kWh": {
+          "fixed": [
+            24142.551002019198,
+            45140.640762192765,
+            26473.277186923948
+          ],
+          "variable": [
+            8428.09831521971,
+            17170.222933151632,
+            25029.479494390136
+          ]
+        }
+      }
+    },
+    {
+      "name": "Infeasible duties explicitly omit comparable annual energy",
+      "passed": true,
+      "evidence": [
+        {
+          "name": "Resistance +25%: capacity challenge",
+          "unmet": [
+            {
+              "strategy": "fixed",
+              "load_fraction": 1.0
+            },
+            {
+              "strategy": "variable",
+              "load_fraction": 1.0
+            }
+          ]
+        },
+        {
+          "name": "Terminal minimum 14 m: capacity challenge",
+          "unmet": [
+            {
+              "strategy": "fixed",
+              "load_fraction": 1.0
+            },
+            {
+              "strategy": "variable",
+              "load_fraction": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unfavourable feasible case retains negative savings",
+      "passed": true,
+      "evidence": {
+        "savings_kWh": -10222.966759265837,
+        "savings_percent": -6.958259226281989
+      }
+    },
+    {
+      "name": "Alternative staging challenge is admissible and lower-power but separate",
+      "passed": true,
+      "evidence": {
+        "two_pumps_kW": 1.7757725340420372,
+        "headline_one_pump_kW": 2.4052791995490037
+      }
+    },
+    {
+      "name": "High-resistance challenge capacity is below the required full flow",
+      "passed": true,
+      "evidence": {
+        "achieved_m3_h": 164.51321904618138,
+        "required_m3_h": 172.05204276548037
+      }
+    }
+  ],
+  "scope": "Verification of illustrative steady-state model, not real facility validation"
+}

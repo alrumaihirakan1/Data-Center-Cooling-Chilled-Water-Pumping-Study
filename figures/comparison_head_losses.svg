@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1040" viewBox="0 0 1700 1040">
+<rect width="100%" height="100%" fill="white"/>
+<text x="55" y="32" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="36" font-weight="700" fill="#303034">Where the pump head goes</text>
+<text x="55" y="88" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="23" font-weight="400" fill="#716C67">Stacked losses equal gross pump head; individual branch loss uses branch flow, shared losses use total flow</text>
+<polyline points="120.00,725.00 1590.00,725.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="102" y="715.0" dominant-baseline="hanging" text-anchor="end" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">0</text>
+<polyline points="120.00,658.75 1590.00,658.75" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="102" y="648.75" dominant-baseline="hanging" text-anchor="end" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">4</text>
+<polyline points="120.00,592.50 1590.00,592.50" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="102" y="582.5" dominant-baseline="hanging" text-anchor="end" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">8</text>
+<polyline points="120.00,526.25 1590.00,526.25" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="102" y="516.25" dominant-baseline="hanging" text-anchor="end" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">12</text>
+<polyline points="120.00,460.00 1590.00,460.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="102" y="450.0" dominant-baseline="hanging" text-anchor="end" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">16</text>
+<polyline points="120.00,393.75 1590.00,393.75" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="102" y="383.75" dominant-baseline="hanging" text-anchor="end" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">20</text>
+<polyline points="120.00,327.50 1590.00,327.50" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="102" y="317.5" dominant-baseline="hanging" text-anchor="end" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">24</text>
+<polyline points="120.00,261.25 1590.00,261.25" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="102" y="251.25" dominant-baseline="hanging" text-anchor="end" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">28</text>
+<polyline points="120.00,195.00 1590.00,195.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="102" y="185.0" dominant-baseline="hanging" text-anchor="end" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">32</text>
+<text x="120" y="151" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="23" font-weight="400" fill="#303034">Head (m water)</text>
+<rect x="266" y="698.5" width="88" height="26.499999999999996" fill="#716C67" stroke="white" stroke-width="2"/>
+<rect x="266" y="677.3" width="88" height="21.199999999999996" fill="#677481" stroke="white" stroke-width="2"/>
+<rect x="266" y="301.00000000000017" width="88" height="376.2999999999998" fill="#68455F" stroke="white" stroke-width="2"/>
+<rect x="266" y="279.8000000000002" width="88" height="21.199999999999996" fill="#67775F" stroke="white" stroke-width="2"/>
+<text x="310" y="244.80000000000018" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#303034">26.88</text>
+<text x="310" y="743" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#303034">Fixed</text>
+<rect x="403" y="698.5" width="88" height="26.499999999999996" fill="#716C67" stroke="white" stroke-width="2"/>
+<rect x="403" y="677.3" width="88" height="21.199999999999996" fill="#677481" stroke="white" stroke-width="2"/>
+<rect x="403" y="595.4444444444443" width="88" height="81.85555555555555" fill="#68455F" stroke="white" stroke-width="2"/>
+<rect x="403" y="574.2444444444443" width="88" height="21.199999999999996" fill="#67775F" stroke="white" stroke-width="2"/>
+<text x="447" y="539.2444444444443" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#303034">9.10</text>
+<text x="447" y="743" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#303034">VSD</text>
+<text x="370" y="788" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="25" font-weight="700" fill="#303034">40% load</text>
+<rect x="766" y="643.84375" width="88" height="81.15624999999999" fill="#716C67" stroke="white" stroke-width="2"/>
+<rect x="766" y="578.91875" width="88" height="64.925" fill="#677481" stroke="white" stroke-width="2"/>
+<rect x="766" y="276.1562500000001" width="88" height="302.76249999999993" fill="#68455F" stroke="white" stroke-width="2"/>
+<rect x="766" y="259.9250000000001" width="88" height="16.23125" fill="#67775F" stroke="white" stroke-width="2"/>
+<text x="810" y="224.92500000000013" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#303034">28.08</text>
+<text x="810" y="743" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#303034">Fixed</text>
+<rect x="903" y="643.84375" width="88" height="81.15624999999999" fill="#716C67" stroke="white" stroke-width="2"/>
+<rect x="903" y="578.91875" width="88" height="64.925" fill="#677481" stroke="white" stroke-width="2"/>
+<rect x="903" y="562.6875" width="88" height="16.231250000000003" fill="#68455F" stroke="white" stroke-width="2"/>
+<rect x="903" y="546.45625" width="88" height="16.23125" fill="#67775F" stroke="white" stroke-width="2"/>
+<text x="947" y="511.45624999999995" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#303034">10.78</text>
+<text x="947" y="743" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#303034">VSD</text>
+<text x="870" y="788" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="25" font-weight="700" fill="#303034">70% load</text>
+<rect x="1266" y="559.375" width="88" height="165.62499999999997" fill="#716C67" stroke="white" stroke-width="2"/>
+<rect x="1266" y="426.875" width="88" height="132.49999999999997" fill="#677481" stroke="white" stroke-width="2"/>
+<rect x="1266" y="360.62500000000006" width="88" height="66.24999999999996" fill="#68455F" stroke="white" stroke-width="2"/>
+<rect x="1266" y="327.50000000000006" width="88" height="33.12499999999999" fill="#67775F" stroke="white" stroke-width="2"/>
+<text x="1310" y="292.50000000000006" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#303034">24.00</text>
+<text x="1310" y="743" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#303034">Fixed</text>
+<rect x="1403" y="559.375" width="88" height="165.62499999999997" fill="#716C67" stroke="white" stroke-width="2"/>
+<rect x="1403" y="426.875" width="88" height="132.49999999999997" fill="#677481" stroke="white" stroke-width="2"/>
+<rect x="1403" y="393.74999999999994" width="88" height="33.125000000000064" fill="#68455F" stroke="white" stroke-width="2"/>
+<rect x="1403" y="360.62499999999994" width="88" height="33.12499999999999" fill="#67775F" stroke="white" stroke-width="2"/>
+<text x="1447" y="325.62499999999994" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#303034">22.00</text>
+<text x="1447" y="743" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#303034">VSD</text>
+<text x="1370" y="788" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="25" font-weight="700" fill="#303034">100% load</text>
+<rect x="130" y="858" width="23" height="23" fill="#716C67" stroke="#716C67" stroke-width="2"/>
+<text x="166" y="855" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#303034">Shared pipes + plant HX</text>
+<rect x="610" y="858" width="23" height="23" fill="#677481" stroke="#677481" stroke-width="2"/>
+<text x="646" y="855" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#303034">Equivalent coil bank</text>
+<rect x="1110" y="858" width="23" height="23" fill="#68455F" stroke="#68455F" stroke-width="2"/>
+<text x="1146" y="855" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#303034">Control valve</text>
+<rect x="130" y="905" width="23" height="23" fill="#67775F" stroke="#67775F" stroke-width="2"/>
+<text x="166" y="902" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#303034">Individual pump branch</text>
+<text x="70" y="970" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="24" font-weight="400" fill="#716C67">At 40%, VSD still throttles: the speed-scaled upper flow limit prevents further slowing with one pump.</text>
+</svg>

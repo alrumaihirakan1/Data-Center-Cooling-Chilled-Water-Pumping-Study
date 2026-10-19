@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="970" viewBox="0 0 1800 970">
+<rect width="100%" height="100%" fill="white"/>
+<text x="55" y="30" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="38" font-weight="700" fill="#303034">Closed chilled-water distribution loop</text>
+<text x="55" y="82" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="24" font-weight="400" fill="#716C67">System boundary: secondary water loop and pumps; primary plant and CRAH air side excluded</text>
+<rect x="75" y="175" width="1650" height="620" fill="white" stroke="#DED8D1" stroke-width="2"/>
+<polyline points="160.00,280.00 160.00,660.00" fill="none" stroke="#677481" stroke-width="5"/>
+<polyline points="650.00,280.00 650.00,490.00" fill="none" stroke="#677481" stroke-width="5"/>
+<polyline points="160.00,280.00 650.00,280.00" fill="none" stroke="#677481" stroke-width="4"/>
+<rect x="205" y="256" width="65" height="48" fill="white" stroke="#677481" stroke-width="2"/>
+<text x="237.5" y="267" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#677481">IV</text>
+<rect x="315" y="256" width="95" height="48" fill="white" stroke="#677481" stroke-width="2"/>
+<text x="362.5" y="267" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#677481">P1</text>
+<rect x="450" y="256" width="95" height="48" fill="white" stroke="#677481" stroke-width="2"/>
+<text x="497.5" y="267" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#677481">CV →</text>
+<rect x="570" y="256" width="65" height="48" fill="white" stroke="#677481" stroke-width="2"/>
+<text x="602.5" y="267" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#677481">IV</text>
+<text x="315" y="315" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#677481">duty</text>
+<polyline points="160.00,385.00 650.00,385.00" fill="none" stroke="#677481" stroke-width="4"/>
+<rect x="205" y="361" width="65" height="48" fill="white" stroke="#677481" stroke-width="2"/>
+<text x="237.5" y="372" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#677481">IV</text>
+<rect x="315" y="361" width="95" height="48" fill="white" stroke="#677481" stroke-width="2"/>
+<text x="362.5" y="372" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#677481">P2</text>
+<rect x="450" y="361" width="95" height="48" fill="white" stroke="#677481" stroke-width="2"/>
+<text x="497.5" y="372" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#677481">CV →</text>
+<rect x="570" y="361" width="65" height="48" fill="white" stroke="#677481" stroke-width="2"/>
+<text x="602.5" y="372" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#677481">IV</text>
+<text x="315" y="420" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#677481">duty</text>
+<polyline points="160.00,490.00 650.00,490.00" fill="none" stroke="#716C67" stroke-width="4" stroke-dasharray="9 7"/>
+<rect x="205" y="466" width="65" height="48" fill="white" stroke="#716C67" stroke-width="2"/>
+<text x="237.5" y="477" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#716C67">IV</text>
+<rect x="315" y="466" width="95" height="48" fill="white" stroke="#716C67" stroke-width="2"/>
+<text x="362.5" y="477" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#716C67">P3</text>
+<rect x="450" y="466" width="95" height="48" fill="white" stroke="#716C67" stroke-width="2"/>
+<text x="497.5" y="477" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#716C67">CV →</text>
+<rect x="570" y="466" width="65" height="48" fill="white" stroke="#716C67" stroke-width="2"/>
+<text x="602.5" y="477" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#716C67">IV</text>
+<text x="315" y="525" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#716C67">standby</text>
+<circle cx="160" cy="385" r="9" fill="#677481" stroke="#677481" stroke-width="3"/>
+<circle cx="650" cy="385" r="9" fill="#677481" stroke="#677481" stroke-width="3"/>
+<text x="124" y="350" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="25" font-weight="700" fill="#677481">S</text>
+<text x="672" y="350" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="25" font-weight="700" fill="#677481">D</text>
+<text x="190" y="208" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="25" font-weight="700" fill="#303034">Three identical pump branches in parallel</text>
+<text x="190" y="566" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#303034">Each running branch: 2 m loss at 86.03 m³/h</text>
+<text x="190" y="602" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#716C67">IV: isolation valve; CV: discharge check valve</text>
+<polyline points="650.00,385.00 720.00,385.00 720.00,270.00 790.00,270.00" fill="none" stroke="#677481" stroke-width="5"/>
+<polyline points="735.00,270.00 785.00,270.00" fill="none" stroke="#677481" stroke-width="4"/>
+<polyline points="785.00,270.00 771.00,264.00 771.00,276.00 785.00,270.00" fill="none" stroke="#677481" stroke-width="4"/>
+<rect x="790" y="220" width="230" height="100" fill="#F1ECE5" stroke="#677481" stroke-width="2"/>
+<text x="905" y="238" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="28" font-weight="700" fill="#677481">Plant HX</text>
+<text x="905" y="280" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="20" font-weight="400" fill="#677481">secondary loss: 4 m</text>
+<polyline points="1020.00,270.00 1120.00,270.00" fill="none" stroke="#677481" stroke-width="4"/>
+<polyline points="1120.00,270.00 1106.00,264.00 1106.00,276.00 1120.00,270.00" fill="none" stroke="#677481" stroke-width="4"/>
+<text x="1040" y="224" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#677481">12.5°C</text>
+<rect x="1120" y="220" width="260" height="100" fill="#FAF8F4" stroke="#67775F" stroke-width="2"/>
+<text x="1250" y="238" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="25" font-weight="700" fill="#67775F">CRAH coil bank</text>
+<text x="1250" y="280" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#67775F">coil loss: 8 m</text>
+<polyline points="1380.00,270.00 1510.00,270.00 1510.00,385.00" fill="none" stroke="#68455F" stroke-width="5"/>
+<polyline points="1510.00,320.00 1510.00,382.00" fill="none" stroke="#68455F" stroke-width="4"/>
+<polyline points="1510.00,382.00 1516.00,368.00 1504.00,368.00 1510.00,382.00" fill="none" stroke="#68455F" stroke-width="4"/>
+<text x="1540" y="315" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="24" font-weight="400" fill="#68455F">17.5°C</text>
+<rect x="1380" y="385" width="260" height="100" fill="#F1ECE5" stroke="#68455F" stroke-width="2"/>
+<text x="1510" y="402" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="25" font-weight="700" fill="#68455F">Equivalent two-way</text>
+<text x="1510" y="438" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="25" font-weight="700" fill="#68455F">control valve</text>
+<polyline points="1510.00,485.00 1510.00,660.00 160.00,660.00" fill="none" stroke="#68455F" stroke-width="5"/>
+<polyline points="1170.00,660.00 1080.00,660.00" fill="none" stroke="#68455F" stroke-width="4"/>
+<polyline points="1080.00,660.00 1094.00,666.00 1094.00,654.00 1080.00,660.00" fill="none" stroke="#68455F" stroke-width="4"/>
+<polyline points="230.00,660.00 165.00,660.00" fill="none" stroke="#68455F" stroke-width="4"/>
+<polyline points="165.00,660.00 179.00,666.00 179.00,654.00 165.00,660.00" fill="none" stroke="#68455F" stroke-width="4"/>
+<polyline points="160.00,625.00 160.00,550.00" fill="none" stroke="#68455F" stroke-width="4"/>
+<polyline points="160.00,550.00 154.00,564.00 166.00,564.00 160.00,550.00" fill="none" stroke="#68455F" stroke-width="4"/>
+<text x="1020" y="535" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#303034">Valve: 2 m fully open; 4 m at full-load setting</text>
+<text x="735" y="604" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="23" font-weight="400" fill="#303034">Shared supply/return pipes, fittings and headers: 6 m total</text>
+<text x="760" y="712" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#716C67">All head budgets are illustrative at design flow; losses scale with flow².</text>
+<text x="1100" y="137" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="400" fill="#677481">External plant: adequate heat rejection; supply maintained</text>
+<polyline points="905.00,165.00 905.00,220.00" fill="none" stroke="#677481" stroke-width="3" stroke-dasharray="9 7"/>
+<text x="1245" y="346" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#67775F">+1 MW from hall at full load</text>
+<polyline points="160.00,660.00 160.00,730.00 280.00,730.00" fill="none" stroke="#716C67" stroke-width="3"/>
+<rect x="280" y="697" width="260" height="65" fill="#F1ECE5" stroke="#716C67" stroke-width="2"/>
+<text x="410" y="710" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#716C67">Closed expansion / fill</text>
+<text x="80" y="830" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="25" font-weight="700" fill="#303034">Full-load references: Q = 172.05 m³/h; qP1 = qP2 = 86.03 m³/h; HP = 24 m; HD−HS = 22 m.</text>
+<text x="80" y="875" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="23" font-weight="400" fill="#303034">Failed branch isolated; standby replaces its duty position. Standby check valve prevents reverse flow when off.</text>
+<text x="80" y="918" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="23" font-weight="400" fill="#716C67">Coil and valve blocks represent a balanced parallel terminal bank. The layout shows the hydraulic model&#x27;s connections.</text>
+</svg>

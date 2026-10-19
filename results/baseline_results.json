@@ -1,0 +1,1040 @@
+{
+  "study_version": "1.2",
+  "assumptions_sha256": "dbc2cfd0e0b2979a9f220810d71aa113b1677fa3f917164162c2ae8dfb170543",
+  "design": {
+    "mass_flow_kg_s": 47.74922109083096,
+    "volume_flow_m3_s": 0.04779223410152233,
+    "volume_flow_m3_h": 172.0520427654804,
+    "per_pump_BEP_m3_h": 86.0260213827402,
+    "R_passive_s2_m5": 7880.5737905021515,
+    "R_branch_s2_m5": 3502.4772402231783,
+    "R_valve_min_s2_m5": 875.6193100557946,
+    "one_pump_flow_limit_total_load_fraction": 0.6
+  },
+  "normal_fixed_speed": [
+    {
+      "running_pumps": 1,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.01194805852538058,
+      "achieved_flow_m3_h": 43.01301069137009,
+      "branch_flows_m3_s": [
+        0.01194805852538058
+      ],
+      "per_pump_flow_m3_h": 43.01301069137009,
+      "flow_ratio_to_speed_scaled_BEP": 0.49999999999999994,
+      "pump_head_m": 30.0,
+      "branch_loss_m": 0.4999999999999999,
+      "header_head_m": 29.5,
+      "header_heads_by_branch_m": [
+        29.5
+      ],
+      "header_differential_kPa": 289.1345445,
+      "pump_differential_kPa": 294.03513,
+      "passive_shared_loss_m": 1.1249999999999998,
+      "terminal_differential_head_m": 28.874999999999996,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 28.374999999999996,
+      "valve_R_s2_m5": 198765.58338266538,
+      "valve_Kv_fraction_of_max": 0.06637233115999719,
+      "pump_efficiency": 0.7125,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 3.5131489417578874,
+      "shaft_power_each_kW": 4.930735356853175,
+      "electrical_power_kW": 5.301865975110941,
+      "valve_dissipation_kW": 3.322853374079335,
+      "loop_balance_residual_m": 3.552713678800501e-15,
+      "within_declared_envelope": true,
+      "constraint_violations": [],
+      "load_fraction": 0.25,
+      "coil_heat_W": 250000.0,
+      "required_flow_m3_s": 0.011948058525380582,
+      "required_flow_m3_h": 43.0130106913701,
+      "running_pump_ids": [
+        "P1"
+      ],
+      "available_pump_ids": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "available_standby_count": 2,
+      "flow_error_m3_s": -1.734723475976807e-18,
+      "rejected_lower_count_candidates": []
+    },
+    {
+      "running_pumps": 1,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.02389611705076116,
+      "achieved_flow_m3_h": 86.02602138274018,
+      "branch_flows_m3_s": [
+        0.02389611705076116
+      ],
+      "per_pump_flow_m3_h": 86.02602138274018,
+      "flow_ratio_to_speed_scaled_BEP": 0.9999999999999999,
+      "pump_head_m": 24.0,
+      "branch_loss_m": 1.9999999999999996,
+      "header_head_m": 22.0,
+      "header_heads_by_branch_m": [
+        22.0
+      ],
+      "header_differential_kPa": 215.625762,
+      "pump_differential_kPa": 235.228104,
+      "passive_shared_loss_m": 4.499999999999999,
+      "terminal_differential_head_m": 19.499999999999993,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 17.499999999999993,
+      "valve_R_s2_m5": 30646.67585195281,
+      "valve_Kv_fraction_of_max": 0.16903085094570333,
+      "pump_efficiency": 0.8,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 5.62103830681262,
+      "shaft_power_each_kW": 7.026297883515775,
+      "electrical_power_kW": 7.55515901453309,
+      "valve_dissipation_kW": 4.0986737653842,
+      "loop_balance_residual_m": 7.105427357601002e-15,
+      "within_declared_envelope": true,
+      "constraint_violations": [],
+      "load_fraction": 0.5,
+      "coil_heat_W": 500000.0,
+      "required_flow_m3_s": 0.023896117050761164,
+      "required_flow_m3_h": 86.0260213827402,
+      "running_pump_ids": [
+        "P1"
+      ],
+      "available_pump_ids": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "available_standby_count": 2,
+      "flow_error_m3_s": -3.469446951953614e-18,
+      "rejected_lower_count_candidates": []
+    },
+    {
+      "running_pumps": 2,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.03584417557614174,
+      "achieved_flow_m3_h": 129.03903207411025,
+      "branch_flows_m3_s": [
+        0.01792208778807087,
+        0.01792208778807087
+      ],
+      "per_pump_flow_m3_h": 64.51951603705513,
+      "flow_ratio_to_speed_scaled_BEP": 0.7499999999999998,
+      "pump_head_m": 27.5,
+      "branch_loss_m": 1.1249999999999996,
+      "header_head_m": 26.375,
+      "header_heads_by_branch_m": [
+        26.375,
+        26.375
+      ],
+      "header_differential_kPa": 258.505885125,
+      "pump_differential_kPa": 269.53220250000004,
+      "passive_shared_loss_m": 10.124999999999996,
+      "terminal_differential_head_m": 20.749999999999993,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 16.249999999999993,
+      "valve_R_s2_m5": 12647.8344785837,
+      "valve_Kv_fraction_of_max": 0.2631174057921088,
+      "pump_efficiency": 0.778125,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 9.66115958983419,
+      "shaft_power_each_kW": 6.207974033628395,
+      "electrical_power_kW": 13.350481792749235,
+      "valve_dissipation_kW": 5.708867030356564,
+      "loop_balance_residual_m": 1.0658141036401503e-14,
+      "within_declared_envelope": true,
+      "constraint_violations": [],
+      "load_fraction": 0.75,
+      "coil_heat_W": 750000.0,
+      "required_flow_m3_s": 0.035844175576141744,
+      "required_flow_m3_h": 129.03903207411028,
+      "running_pump_ids": [
+        "P1",
+        "P2"
+      ],
+      "available_pump_ids": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "available_standby_count": 1,
+      "flow_error_m3_s": -6.938893903907228e-18,
+      "rejected_lower_count_candidates": [
+        {
+          "running": 1,
+          "violations": [
+            "per-pump flow outside declared envelope",
+            "valve resistance outside declared controllable range"
+          ]
+        }
+      ]
+    },
+    {
+      "running_pumps": 2,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.04779223410152232,
+      "achieved_flow_m3_h": 172.05204276548037,
+      "branch_flows_m3_s": [
+        0.02389611705076116,
+        0.02389611705076116
+      ],
+      "per_pump_flow_m3_h": 86.02602138274018,
+      "flow_ratio_to_speed_scaled_BEP": 0.9999999999999999,
+      "pump_head_m": 24.0,
+      "branch_loss_m": 1.9999999999999996,
+      "header_head_m": 22.0,
+      "header_heads_by_branch_m": [
+        22.0,
+        22.0
+      ],
+      "header_differential_kPa": 215.625762,
+      "pump_differential_kPa": 235.228104,
+      "passive_shared_loss_m": 17.999999999999996,
+      "terminal_differential_head_m": 11.999999999999996,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 3.999999999999998,
+      "valve_R_s2_m5": 1751.2386201115887,
+      "valve_Kv_fraction_of_max": 0.7071067811865476,
+      "pump_efficiency": 0.8,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 11.24207661362524,
+      "shaft_power_each_kW": 7.026297883515775,
+      "electrical_power_kW": 15.11031802906618,
+      "valve_dissipation_kW": 1.8736794356042055,
+      "loop_balance_residual_m": 7.105427357601002e-15,
+      "within_declared_envelope": true,
+      "constraint_violations": [],
+      "load_fraction": 1.0,
+      "coil_heat_W": 1000000.0,
+      "required_flow_m3_s": 0.04779223410152233,
+      "required_flow_m3_h": 172.0520427654804,
+      "running_pump_ids": [
+        "P1",
+        "P2"
+      ],
+      "available_pump_ids": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "available_standby_count": 1,
+      "flow_error_m3_s": -6.938893903907228e-18,
+      "rejected_lower_count_candidates": [
+        {
+          "running": 1,
+          "violations": [
+            "per-pump flow outside declared envelope",
+            "valve resistance outside declared controllable range",
+            "terminal differential pressure below required minimum",
+            "nonphysical pump head or efficiency"
+          ]
+        }
+      ]
+    }
+  ],
+  "single_pump_outages": [
+    {
+      "running_pumps": 1,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.01194805852538058,
+      "achieved_flow_m3_h": 43.01301069137009,
+      "branch_flows_m3_s": [
+        0.01194805852538058
+      ],
+      "per_pump_flow_m3_h": 43.01301069137009,
+      "flow_ratio_to_speed_scaled_BEP": 0.49999999999999994,
+      "pump_head_m": 30.0,
+      "branch_loss_m": 0.4999999999999999,
+      "header_head_m": 29.5,
+      "header_heads_by_branch_m": [
+        29.5
+      ],
+      "header_differential_kPa": 289.1345445,
+      "pump_differential_kPa": 294.03513,
+      "passive_shared_loss_m": 1.1249999999999998,
+      "terminal_differential_head_m": 28.874999999999996,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 28.374999999999996,
+      "valve_R_s2_m5": 198765.58338266538,
+      "valve_Kv_fraction_of_max": 0.06637233115999719,
+      "pump_efficiency": 0.7125,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 3.5131489417578874,
+      "shaft_power_each_kW": 4.930735356853175,
+      "electrical_power_kW": 5.301865975110941,
+      "valve_dissipation_kW": 3.322853374079335,
+      "loop_balance_residual_m": 3.552713678800501e-15,
+      "within_declared_envelope": true,
+      "constraint_violations": [],
+      "load_fraction": 0.25,
+      "coil_heat_W": 250000.0,
+      "required_flow_m3_s": 0.011948058525380582,
+      "required_flow_m3_h": 43.0130106913701,
+      "running_pump_ids": [
+        "P2"
+      ],
+      "available_pump_ids": [
+        "P2",
+        "P3"
+      ],
+      "available_standby_count": 1,
+      "flow_error_m3_s": -1.734723475976807e-18,
+      "rejected_lower_count_candidates": [],
+      "unavailable_pump_id": "P1"
+    },
+    {
+      "running_pumps": 1,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.02389611705076116,
+      "achieved_flow_m3_h": 86.02602138274018,
+      "branch_flows_m3_s": [
+        0.02389611705076116
+      ],
+      "per_pump_flow_m3_h": 86.02602138274018,
+      "flow_ratio_to_speed_scaled_BEP": 0.9999999999999999,
+      "pump_head_m": 24.0,
+      "branch_loss_m": 1.9999999999999996,
+      "header_head_m": 22.0,
+      "header_heads_by_branch_m": [
+        22.0
+      ],
+      "header_differential_kPa": 215.625762,
+      "pump_differential_kPa": 235.228104,
+      "passive_shared_loss_m": 4.499999999999999,
+      "terminal_differential_head_m": 19.499999999999993,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 17.499999999999993,
+      "valve_R_s2_m5": 30646.67585195281,
+      "valve_Kv_fraction_of_max": 0.16903085094570333,
+      "pump_efficiency": 0.8,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 5.62103830681262,
+      "shaft_power_each_kW": 7.026297883515775,
+      "electrical_power_kW": 7.55515901453309,
+      "valve_dissipation_kW": 4.0986737653842,
+      "loop_balance_residual_m": 7.105427357601002e-15,
+      "within_declared_envelope": true,
+      "constraint_violations": [],
+      "load_fraction": 0.5,
+      "coil_heat_W": 500000.0,
+      "required_flow_m3_s": 0.023896117050761164,
+      "required_flow_m3_h": 86.0260213827402,
+      "running_pump_ids": [
+        "P2"
+      ],
+      "available_pump_ids": [
+        "P2",
+        "P3"
+      ],
+      "available_standby_count": 1,
+      "flow_error_m3_s": -3.469446951953614e-18,
+      "rejected_lower_count_candidates": [],
+      "unavailable_pump_id": "P1"
+    },
+    {
+      "running_pumps": 2,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.03584417557614174,
+      "achieved_flow_m3_h": 129.03903207411025,
+      "branch_flows_m3_s": [
+        0.01792208778807087,
+        0.01792208778807087
+      ],
+      "per_pump_flow_m3_h": 64.51951603705513,
+      "flow_ratio_to_speed_scaled_BEP": 0.7499999999999998,
+      "pump_head_m": 27.5,
+      "branch_loss_m": 1.1249999999999996,
+      "header_head_m": 26.375,
+      "header_heads_by_branch_m": [
+        26.375,
+        26.375
+      ],
+      "header_differential_kPa": 258.505885125,
+      "pump_differential_kPa": 269.53220250000004,
+      "passive_shared_loss_m": 10.124999999999996,
+      "terminal_differential_head_m": 20.749999999999993,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 16.249999999999993,
+      "valve_R_s2_m5": 12647.8344785837,
+      "valve_Kv_fraction_of_max": 0.2631174057921088,
+      "pump_efficiency": 0.778125,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 9.66115958983419,
+      "shaft_power_each_kW": 6.207974033628395,
+      "electrical_power_kW": 13.350481792749235,
+      "valve_dissipation_kW": 5.708867030356564,
+      "loop_balance_residual_m": 1.0658141036401503e-14,
+      "within_declared_envelope": true,
+      "constraint_violations": [],
+      "load_fraction": 0.75,
+      "coil_heat_W": 750000.0,
+      "required_flow_m3_s": 0.035844175576141744,
+      "required_flow_m3_h": 129.03903207411028,
+      "running_pump_ids": [
+        "P2",
+        "P3"
+      ],
+      "available_pump_ids": [
+        "P2",
+        "P3"
+      ],
+      "available_standby_count": 0,
+      "flow_error_m3_s": -6.938893903907228e-18,
+      "rejected_lower_count_candidates": [
+        {
+          "running": 1,
+          "violations": [
+            "per-pump flow outside declared envelope",
+            "valve resistance outside declared controllable range"
+          ]
+        }
+      ],
+      "unavailable_pump_id": "P1"
+    },
+    {
+      "running_pumps": 2,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.04779223410152232,
+      "achieved_flow_m3_h": 172.05204276548037,
+      "branch_flows_m3_s": [
+        0.02389611705076116,
+        0.02389611705076116
+      ],
+      "per_pump_flow_m3_h": 86.02602138274018,
+      "flow_ratio_to_speed_scaled_BEP": 0.9999999999999999,
+      "pump_head_m": 24.0,
+      "branch_loss_m": 1.9999999999999996,
+      "header_head_m": 22.0,
+      "header_heads_by_branch_m": [
+        22.0,
+        22.0
+      ],
+      "header_differential_kPa": 215.625762,
+      "pump_differential_kPa": 235.228104,
+      "passive_shared_loss_m": 17.999999999999996,
+      "terminal_differential_head_m": 11.999999999999996,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 3.999999999999998,
+      "valve_R_s2_m5": 1751.2386201115887,
+      "valve_Kv_fraction_of_max": 0.7071067811865476,
+      "pump_efficiency": 0.8,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 11.24207661362524,
+      "shaft_power_each_kW": 7.026297883515775,
+      "electrical_power_kW": 15.11031802906618,
+      "valve_dissipation_kW": 1.8736794356042055,
+      "loop_balance_residual_m": 7.105427357601002e-15,
+      "within_declared_envelope": true,
+      "constraint_violations": [],
+      "load_fraction": 1.0,
+      "coil_heat_W": 1000000.0,
+      "required_flow_m3_s": 0.04779223410152233,
+      "required_flow_m3_h": 172.0520427654804,
+      "running_pump_ids": [
+        "P2",
+        "P3"
+      ],
+      "available_pump_ids": [
+        "P2",
+        "P3"
+      ],
+      "available_standby_count": 0,
+      "flow_error_m3_s": -6.938893903907228e-18,
+      "rejected_lower_count_candidates": [
+        {
+          "running": 1,
+          "violations": [
+            "per-pump flow outside declared envelope",
+            "valve resistance outside declared controllable range",
+            "terminal differential pressure below required minimum",
+            "nonphysical pump head or efficiency"
+          ]
+        }
+      ],
+      "unavailable_pump_id": "P1"
+    },
+    {
+      "running_pumps": 1,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.01194805852538058,
+      "achieved_flow_m3_h": 43.01301069137009,
+      "branch_flows_m3_s": [
+        0.01194805852538058
+      ],
+      "per_pump_flow_m3_h": 43.01301069137009,
+      "flow_ratio_to_speed_scaled_BEP": 0.49999999999999994,
+      "pump_head_m": 30.0,
+      "branch_loss_m": 0.4999999999999999,
+      "header_head_m": 29.5,
+      "header_heads_by_branch_m": [
+        29.5
+      ],
+      "header_differential_kPa": 289.1345445,
+      "pump_differential_kPa": 294.03513,
+      "passive_shared_loss_m": 1.1249999999999998,
+      "terminal_differential_head_m": 28.874999999999996,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 28.374999999999996,
+      "valve_R_s2_m5": 198765.58338266538,
+      "valve_Kv_fraction_of_max": 0.06637233115999719,
+      "pump_efficiency": 0.7125,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 3.5131489417578874,
+      "shaft_power_each_kW": 4.930735356853175,
+      "electrical_power_kW": 5.301865975110941,
+      "valve_dissipation_kW": 3.322853374079335,
+      "loop_balance_residual_m": 3.552713678800501e-15,
+      "within_declared_envelope": true,
+      "constraint_violations": [],
+      "load_fraction": 0.25,
+      "coil_heat_W": 250000.0,
+      "required_flow_m3_s": 0.011948058525380582,
+      "required_flow_m3_h": 43.0130106913701,
+      "running_pump_ids": [
+        "P1"
+      ],
+      "available_pump_ids": [
+        "P1",
+        "P3"
+      ],
+      "available_standby_count": 1,
+      "flow_error_m3_s": -1.734723475976807e-18,
+      "rejected_lower_count_candidates": [],
+      "unavailable_pump_id": "P2"
+    },
+    {
+      "running_pumps": 1,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.02389611705076116,
+      "achieved_flow_m3_h": 86.02602138274018,
+      "branch_flows_m3_s": [
+        0.02389611705076116
+      ],
+      "per_pump_flow_m3_h": 86.02602138274018,
+      "flow_ratio_to_speed_scaled_BEP": 0.9999999999999999,
+      "pump_head_m": 24.0,
+      "branch_loss_m": 1.9999999999999996,
+      "header_head_m": 22.0,
+      "header_heads_by_branch_m": [
+        22.0
+      ],
+      "header_differential_kPa": 215.625762,
+      "pump_differential_kPa": 235.228104,
+      "passive_shared_loss_m": 4.499999999999999,
+      "terminal_differential_head_m": 19.499999999999993,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 17.499999999999993,
+      "valve_R_s2_m5": 30646.67585195281,
+      "valve_Kv_fraction_of_max": 0.16903085094570333,
+      "pump_efficiency": 0.8,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 5.62103830681262,
+      "shaft_power_each_kW": 7.026297883515775,
+      "electrical_power_kW": 7.55515901453309,
+      "valve_dissipation_kW": 4.0986737653842,
+      "loop_balance_residual_m": 7.105427357601002e-15,
+      "within_declared_envelope": true,
+      "constraint_violations": [],
+      "load_fraction": 0.5,
+      "coil_heat_W": 500000.0,
+      "required_flow_m3_s": 0.023896117050761164,
+      "required_flow_m3_h": 86.0260213827402,
+      "running_pump_ids": [
+        "P1"
+      ],
+      "available_pump_ids": [
+        "P1",
+        "P3"
+      ],
+      "available_standby_count": 1,
+      "flow_error_m3_s": -3.469446951953614e-18,
+      "rejected_lower_count_candidates": [],
+      "unavailable_pump_id": "P2"
+    },
+    {
+      "running_pumps": 2,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.03584417557614174,
+      "achieved_flow_m3_h": 129.03903207411025,
+      "branch_flows_m3_s": [
+        0.01792208778807087,
+        0.01792208778807087
+      ],
+      "per_pump_flow_m3_h": 64.51951603705513,
+      "flow_ratio_to_speed_scaled_BEP": 0.7499999999999998,
+      "pump_head_m": 27.5,
+      "branch_loss_m": 1.1249999999999996,
+      "header_head_m": 26.375,
+      "header_heads_by_branch_m": [
+        26.375,
+        26.375
+      ],
+      "header_differential_kPa": 258.505885125,
+      "pump_differential_kPa": 269.53220250000004,
+      "passive_shared_loss_m": 10.124999999999996,
+      "terminal_differential_head_m": 20.749999999999993,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 16.249999999999993,
+      "valve_R_s2_m5": 12647.8344785837,
+      "valve_Kv_fraction_of_max": 0.2631174057921088,
+      "pump_efficiency": 0.778125,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 9.66115958983419,
+      "shaft_power_each_kW": 6.207974033628395,
+      "electrical_power_kW": 13.350481792749235,
+      "valve_dissipation_kW": 5.708867030356564,
+      "loop_balance_residual_m": 1.0658141036401503e-14,
+      "within_declared_envelope": true,
+      "constraint_violations": [],
+      "load_fraction": 0.75,
+      "coil_heat_W": 750000.0,
+      "required_flow_m3_s": 0.035844175576141744,
+      "required_flow_m3_h": 129.03903207411028,
+      "running_pump_ids": [
+        "P1",
+        "P3"
+      ],
+      "available_pump_ids": [
+        "P1",
+        "P3"
+      ],
+      "available_standby_count": 0,
+      "flow_error_m3_s": -6.938893903907228e-18,
+      "rejected_lower_count_candidates": [
+        {
+          "running": 1,
+          "violations": [
+            "per-pump flow outside declared envelope",
+            "valve resistance outside declared controllable range"
+          ]
+        }
+      ],
+      "unavailable_pump_id": "P2"
+    },
+    {
+      "running_pumps": 2,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.04779223410152232,
+      "achieved_flow_m3_h": 172.05204276548037,
+      "branch_flows_m3_s": [
+        0.02389611705076116,
+        0.02389611705076116
+      ],
+      "per_pump_flow_m3_h": 86.02602138274018,
+      "flow_ratio_to_speed_scaled_BEP": 0.9999999999999999,
+      "pump_head_m": 24.0,
+      "branch_loss_m": 1.9999999999999996,
+      "header_head_m": 22.0,
+      "header_heads_by_branch_m": [
+        22.0,
+        22.0
+      ],
+      "header_differential_kPa": 215.625762,
+      "pump_differential_kPa": 235.228104,
+      "passive_shared_loss_m": 17.999999999999996,
+      "terminal_differential_head_m": 11.999999999999996,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 3.999999999999998,
+      "valve_R_s2_m5": 1751.2386201115887,
+      "valve_Kv_fraction_of_max": 0.7071067811865476,
+      "pump_efficiency": 0.8,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 11.24207661362524,
+      "shaft_power_each_kW": 7.026297883515775,
+      "electrical_power_kW": 15.11031802906618,
+      "valve_dissipation_kW": 1.8736794356042055,
+      "loop_balance_residual_m": 7.105427357601002e-15,
+      "within_declared_envelope": true,
+      "constraint_violations": [],
+      "load_fraction": 1.0,
+      "coil_heat_W": 1000000.0,
+      "required_flow_m3_s": 0.04779223410152233,
+      "required_flow_m3_h": 172.0520427654804,
+      "running_pump_ids": [
+        "P1",
+        "P3"
+      ],
+      "available_pump_ids": [
+        "P1",
+        "P3"
+      ],
+      "available_standby_count": 0,
+      "flow_error_m3_s": -6.938893903907228e-18,
+      "rejected_lower_count_candidates": [
+        {
+          "running": 1,
+          "violations": [
+            "per-pump flow outside declared envelope",
+            "valve resistance outside declared controllable range",
+            "terminal differential pressure below required minimum",
+            "nonphysical pump head or efficiency"
+          ]
+        }
+      ],
+      "unavailable_pump_id": "P2"
+    },
+    {
+      "running_pumps": 1,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.01194805852538058,
+      "achieved_flow_m3_h": 43.01301069137009,
+      "branch_flows_m3_s": [
+        0.01194805852538058
+      ],
+      "per_pump_flow_m3_h": 43.01301069137009,
+      "flow_ratio_to_speed_scaled_BEP": 0.49999999999999994,
+      "pump_head_m": 30.0,
+      "branch_loss_m": 0.4999999999999999,
+      "header_head_m": 29.5,
+      "header_heads_by_branch_m": [
+        29.5
+      ],
+      "header_differential_kPa": 289.1345445,
+      "pump_differential_kPa": 294.03513,
+      "passive_shared_loss_m": 1.1249999999999998,
+      "terminal_differential_head_m": 28.874999999999996,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 28.374999999999996,
+      "valve_R_s2_m5": 198765.58338266538,
+      "valve_Kv_fraction_of_max": 0.06637233115999719,
+      "pump_efficiency": 0.7125,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 3.5131489417578874,
+      "shaft_power_each_kW": 4.930735356853175,
+      "electrical_power_kW": 5.301865975110941,
+      "valve_dissipation_kW": 3.322853374079335,
+      "loop_balance_residual_m": 3.552713678800501e-15,
+      "within_declared_envelope": true,
+      "constraint_violations": [],
+      "load_fraction": 0.25,
+      "coil_heat_W": 250000.0,
+      "required_flow_m3_s": 0.011948058525380582,
+      "required_flow_m3_h": 43.0130106913701,
+      "running_pump_ids": [
+        "P1"
+      ],
+      "available_pump_ids": [
+        "P1",
+        "P2"
+      ],
+      "available_standby_count": 1,
+      "flow_error_m3_s": -1.734723475976807e-18,
+      "rejected_lower_count_candidates": [],
+      "unavailable_pump_id": "P3"
+    },
+    {
+      "running_pumps": 1,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.02389611705076116,
+      "achieved_flow_m3_h": 86.02602138274018,
+      "branch_flows_m3_s": [
+        0.02389611705076116
+      ],
+      "per_pump_flow_m3_h": 86.02602138274018,
+      "flow_ratio_to_speed_scaled_BEP": 0.9999999999999999,
+      "pump_head_m": 24.0,
+      "branch_loss_m": 1.9999999999999996,
+      "header_head_m": 22.0,
+      "header_heads_by_branch_m": [
+        22.0
+      ],
+      "header_differential_kPa": 215.625762,
+      "pump_differential_kPa": 235.228104,
+      "passive_shared_loss_m": 4.499999999999999,
+      "terminal_differential_head_m": 19.499999999999993,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 17.499999999999993,
+      "valve_R_s2_m5": 30646.67585195281,
+      "valve_Kv_fraction_of_max": 0.16903085094570333,
+      "pump_efficiency": 0.8,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 5.62103830681262,
+      "shaft_power_each_kW": 7.026297883515775,
+      "electrical_power_kW": 7.55515901453309,
+      "valve_dissipation_kW": 4.0986737653842,
+      "loop_balance_residual_m": 7.105427357601002e-15,
+      "within_declared_envelope": true,
+      "constraint_violations": [],
+      "load_fraction": 0.5,
+      "coil_heat_W": 500000.0,
+      "required_flow_m3_s": 0.023896117050761164,
+      "required_flow_m3_h": 86.0260213827402,
+      "running_pump_ids": [
+        "P1"
+      ],
+      "available_pump_ids": [
+        "P1",
+        "P2"
+      ],
+      "available_standby_count": 1,
+      "flow_error_m3_s": -3.469446951953614e-18,
+      "rejected_lower_count_candidates": [],
+      "unavailable_pump_id": "P3"
+    },
+    {
+      "running_pumps": 2,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.03584417557614174,
+      "achieved_flow_m3_h": 129.03903207411025,
+      "branch_flows_m3_s": [
+        0.01792208778807087,
+        0.01792208778807087
+      ],
+      "per_pump_flow_m3_h": 64.51951603705513,
+      "flow_ratio_to_speed_scaled_BEP": 0.7499999999999998,
+      "pump_head_m": 27.5,
+      "branch_loss_m": 1.1249999999999996,
+      "header_head_m": 26.375,
+      "header_heads_by_branch_m": [
+        26.375,
+        26.375
+      ],
+      "header_differential_kPa": 258.505885125,
+      "pump_differential_kPa": 269.53220250000004,
+      "passive_shared_loss_m": 10.124999999999996,
+      "terminal_differential_head_m": 20.749999999999993,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 16.249999999999993,
+      "valve_R_s2_m5": 12647.8344785837,
+      "valve_Kv_fraction_of_max": 0.2631174057921088,
+      "pump_efficiency": 0.778125,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 9.66115958983419,
+      "shaft_power_each_kW": 6.207974033628395,
+      "electrical_power_kW": 13.350481792749235,
+      "valve_dissipation_kW": 5.708867030356564,
+      "loop_balance_residual_m": 1.0658141036401503e-14,
+      "within_declared_envelope": true,
+      "constraint_violations": [],
+      "load_fraction": 0.75,
+      "coil_heat_W": 750000.0,
+      "required_flow_m3_s": 0.035844175576141744,
+      "required_flow_m3_h": 129.03903207411028,
+      "running_pump_ids": [
+        "P1",
+        "P2"
+      ],
+      "available_pump_ids": [
+        "P1",
+        "P2"
+      ],
+      "available_standby_count": 0,
+      "flow_error_m3_s": -6.938893903907228e-18,
+      "rejected_lower_count_candidates": [
+        {
+          "running": 1,
+          "violations": [
+            "per-pump flow outside declared envelope",
+            "valve resistance outside declared controllable range"
+          ]
+        }
+      ],
+      "unavailable_pump_id": "P3"
+    },
+    {
+      "running_pumps": 2,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.04779223410152232,
+      "achieved_flow_m3_h": 172.05204276548037,
+      "branch_flows_m3_s": [
+        0.02389611705076116,
+        0.02389611705076116
+      ],
+      "per_pump_flow_m3_h": 86.02602138274018,
+      "flow_ratio_to_speed_scaled_BEP": 0.9999999999999999,
+      "pump_head_m": 24.0,
+      "branch_loss_m": 1.9999999999999996,
+      "header_head_m": 22.0,
+      "header_heads_by_branch_m": [
+        22.0,
+        22.0
+      ],
+      "header_differential_kPa": 215.625762,
+      "pump_differential_kPa": 235.228104,
+      "passive_shared_loss_m": 17.999999999999996,
+      "terminal_differential_head_m": 11.999999999999996,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 3.999999999999998,
+      "valve_R_s2_m5": 1751.2386201115887,
+      "valve_Kv_fraction_of_max": 0.7071067811865476,
+      "pump_efficiency": 0.8,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 11.24207661362524,
+      "shaft_power_each_kW": 7.026297883515775,
+      "electrical_power_kW": 15.11031802906618,
+      "valve_dissipation_kW": 1.8736794356042055,
+      "loop_balance_residual_m": 7.105427357601002e-15,
+      "within_declared_envelope": true,
+      "constraint_violations": [],
+      "load_fraction": 1.0,
+      "coil_heat_W": 1000000.0,
+      "required_flow_m3_s": 0.04779223410152233,
+      "required_flow_m3_h": 172.0520427654804,
+      "running_pump_ids": [
+        "P1",
+        "P2"
+      ],
+      "available_pump_ids": [
+        "P1",
+        "P2"
+      ],
+      "available_standby_count": 0,
+      "flow_error_m3_s": -6.938893903907228e-18,
+      "rejected_lower_count_candidates": [
+        {
+          "running": 1,
+          "violations": [
+            "per-pump flow outside declared envelope",
+            "valve resistance outside declared controllable range",
+            "terminal differential pressure below required minimum",
+            "nonphysical pump head or efficiency"
+          ]
+        }
+      ],
+      "unavailable_pump_id": "P3"
+    }
+  ],
+  "diagnostics_not_all_admissible": {
+    "two_pumps_valves_fully_open": {
+      "running_pumps": 2,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.049359607134197916,
+      "achieved_flow_m3_h": 177.6945856831125,
+      "branch_flows_m3_s": [
+        0.024679803567098958,
+        0.024679803567098958
+      ],
+      "per_pump_flow_m3_h": 88.84729284155625,
+      "flow_ratio_to_speed_scaled_BEP": 1.0327955589886446,
+      "pump_head_m": 23.466666666666665,
+      "branch_loss_m": 2.1333333333333337,
+      "header_head_m": 21.333333333333332,
+      "header_heads_by_branch_m": [
+        21.333333333333332,
+        21.333333333333332
+      ],
+      "header_differential_kPa": 209.091648,
+      "pump_differential_kPa": 230.00081279999998,
+      "passive_shared_loss_m": 19.200000000000006,
+      "terminal_differential_head_m": 10.666666666666668,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 2.1333333333333337,
+      "valve_R_s2_m5": 875.6193100557946,
+      "valve_Kv_fraction_of_max": 1.0,
+      "pump_efficiency": 0.7996235579587179,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 11.3527497603542,
+      "shaft_power_each_kW": 7.098808962892203,
+      "electrical_power_kW": 15.266255834176782,
+      "valve_dissipation_kW": 1.0320681600322001,
+      "loop_balance_residual_m": -7.105427357601002e-15,
+      "within_declared_envelope": true,
+      "constraint_violations": [],
+      "equivalent_coil_heat_at_5K_W": 1032795.5589886447
+    },
+    "one_pump_valves_fully_open": {
+      "running_pumps": 1,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.03490251292129523,
+      "achieved_flow_m3_h": 125.64904651666284,
+      "branch_flows_m3_s": [
+        0.03490251292129523
+      ],
+      "per_pump_flow_m3_h": 125.64904651666284,
+      "flow_ratio_to_speed_scaled_BEP": 1.4605934866804429,
+      "pump_head_m": 14.933333333333337,
+      "branch_loss_m": 4.266666666666666,
+      "header_head_m": 10.666666666666671,
+      "header_heads_by_branch_m": [
+        10.666666666666671
+      ],
+      "header_differential_kPa": 104.54582400000005,
+      "pump_differential_kPa": 146.36415360000004,
+      "passive_shared_loss_m": 9.6,
+      "terminal_differential_head_m": 5.333333333333332,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 1.0666666666666664,
+      "valve_R_s2_m5": 875.6193100557946,
+      "valve_Kv_fraction_of_max": 1.0,
+      "pump_efficiency": 0.7257487740096435,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 5.108476762238442,
+      "shaft_power_each_kW": 7.038905121416796,
+      "electrical_power_kW": 7.568715184319136,
+      "valve_dissipation_kW": 0.36489119730274566,
+      "loop_balance_residual_m": 5.329070518200751e-15,
+      "within_declared_envelope": false,
+      "constraint_violations": [
+        "per-pump flow outside declared envelope"
+      ],
+      "equivalent_coil_heat_at_5K_W": 730296.7433402216
+    },
+    "one_pump_full_load_valve_setting_frozen": {
+      "running_pumps": 1,
+      "speed_fraction": 1.0,
+      "achieved_flow_m3_s": 0.03433495456135299,
+      "achieved_flow_m3_h": 123.60583642087077,
+      "branch_flows_m3_s": [
+        0.03433495456135299
+      ],
+      "per_pump_flow_m3_h": 123.60583642087077,
+      "flow_ratio_to_speed_scaled_BEP": 1.436842416214199,
+      "pump_head_m": 15.48387096774194,
+      "branch_loss_m": 4.129032258064515,
+      "header_head_m": 11.354838709677423,
+      "header_heads_by_branch_m": [
+        11.354838709677423
+      ],
+      "header_differential_kPa": 111.29071587096779,
+      "pump_differential_kPa": 151.76006709677424,
+      "passive_shared_loss_m": 9.29032258064516,
+      "terminal_differential_head_m": 6.193548387096772,
+      "terminal_min_differential_head_m": 2.0,
+      "valve_head_m": 2.064516129032257,
+      "valve_R_s2_m5": 1751.2386201115887,
+      "valve_Kv_fraction_of_max": 0.7071067811865476,
+      "pump_efficiency": 0.7332090461886492,
+      "motor_efficiency": 0.93,
+      "drive_efficiency": 1.0,
+      "hydraulic_power_kW": 5.210675007995625,
+      "shaft_power_each_kW": 7.10667037604301,
+      "electrical_power_kW": 7.641581049508613,
+      "valve_dissipation_kW": 0.6947566677327495,
+      "loop_balance_residual_m": 5.329070518200751e-15,
+      "within_declared_envelope": false,
+      "constraint_violations": [
+        "per-pump flow outside declared envelope"
+      ],
+      "equivalent_coil_heat_at_5K_W": 718421.2081070996
+    }
+  },
+  "design_pipe_checks": {
+    "common": {
+      "velocity_m_s": 1.5212740597324648,
+      "Reynolds_number": 267118.61389783927
+    },
+    "pump_branch": {
+      "velocity_m_s": 1.9472307964575553,
+      "Reynolds_number": 213694.89111827148
+    }
+  }
+}

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1110" viewBox="0 0 1700 1110">
+<rect width="100%" height="100%" fill="white"/>
+<text x="55" y="32" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="36" font-weight="700" fill="#303034">How the assumptions change annual pumping energy</text>
+<text x="55" y="88" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="23" font-weight="400" fill="#716C67">Positive = less energy with variable speed; negative = more energy. Every annual profile totals 8760 h.</text>
+<polyline points="705.00,175.00 705.00,833.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="705.0" y="858" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">-10%</text>
+<polyline points="815.00,175.00 815.00,833.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="815.0" y="858" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">0%</text>
+<polyline points="925.00,175.00 925.00,833.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="925.0" y="858" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">10%</text>
+<polyline points="1035.00,175.00 1035.00,833.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="1035.0" y="858" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">20%</text>
+<polyline points="1145.00,175.00 1145.00,833.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="1145.0" y="858" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">30%</text>
+<polyline points="1255.00,175.00 1255.00,833.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="1255.0" y="858" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">40%</text>
+<polyline points="1365.00,175.00 1365.00,833.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="1365.0" y="858" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">50%</text>
+<polyline points="1475.00,175.00 1475.00,833.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="1475.0" y="858" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">60%</text>
+<polyline points="815.00,175.00 815.00,833.00" fill="none" stroke="#303034" stroke-width="2"/>
+<text x="65" y="213" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="24" font-weight="400" fill="#303034">Reference</text>
+<rect x="815.0" y="210" width="518.414427484202" height="35" fill="#67775F" stroke="#67775F" stroke-width="2"/>
+<text x="1345.414427484202" y="214" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#67775F">+47.1%</text>
+<text x="65" y="285" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="24" font-weight="400" fill="#303034">Resistance -20%</text>
+<rect x="815.0" y="282" width="604.6539267151693" height="35" fill="#67775F" stroke="#67775F" stroke-width="2"/>
+<text x="1431.6539267151693" y="286" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#67775F">+55.0%</text>
+<text x="65" y="357" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="24" font-weight="400" fill="#303034">Resistance +10%</text>
+<rect x="815.0" y="354" width="474.59345459817746" height="35" fill="#67775F" stroke="#67775F" stroke-width="2"/>
+<text x="1301.5934545981775" y="358" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#67775F">+43.1%</text>
+<text x="65" y="429" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="24" font-weight="400" fill="#303034">Terminal minimum 8 m</text>
+<rect x="815.0" y="426" width="443.64360683615223" height="35" fill="#67775F" stroke="#67775F" stroke-width="2"/>
+<text x="1270.6436068361522" y="430" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#67775F">+40.3%</text>
+<text x="65" y="501" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="24" font-weight="400" fill="#303034">Terminal minimum 12 m</text>
+<rect x="815.0" y="498" width="300.6368760842988" height="35" fill="#67775F" stroke="#67775F" stroke-width="2"/>
+<text x="1127.6368760842988" y="502" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#67775F">+27.3%</text>
+<text x="65" y="573" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="24" font-weight="400" fill="#303034">Adverse efficiencies</text>
+<rect x="815.0" y="570" width="480.78313800144133" height="35" fill="#67775F" stroke="#67775F" stroke-width="2"/>
+<text x="1307.7831380014413" y="574" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#67775F">+43.7%</text>
+<text x="65" y="645" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="24" font-weight="400" fill="#303034">More partial-load hours</text>
+<rect x="815.0" y="642" width="594.8022986306407" height="35" fill="#67775F" stroke="#67775F" stroke-width="2"/>
+<text x="1421.8022986306407" y="646" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#67775F">+54.1%</text>
+<text x="65" y="717" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="24" font-weight="400" fill="#303034">More full-load hours</text>
+<rect x="815.0" y="714" width="102.9302231322963" height="35" fill="#67775F" stroke="#67775F" stroke-width="2"/>
+<text x="929.9302231322963" y="718" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#67775F">+9.4%</text>
+<text x="65" y="789" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="24" font-weight="400" fill="#303034">Combined unfavourable</text>
+<rect x="738.4591485108981" y="786" width="76.5408514891019" height="35" fill="#9D4848" stroke="#9D4848" stroke-width="2"/>
+<text x="726.4591485108981" y="790" dominant-baseline="hanging" text-anchor="end" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#9D4848">-7.0%</text>
+<text x="65" y="945" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#303034">Combined unfavourable: +10% resistance, 8 m terminal floor, adverse efficiencies, 90% of hours at full load.</text>
+<text x="65" y="990" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#9D4848">Capacity failures: +25% resistance or a 14 m terminal floor cannot meet full flow with two available pumps.</text>
+<text x="65" y="1035" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#716C67">Annual comparisons require feasible duty at every load. The range describes the scenarios tested and carries no confidence level.</text>
+</svg>

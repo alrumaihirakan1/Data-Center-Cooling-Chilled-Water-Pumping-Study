@@ -1,0 +1,52 @@
+BASELINE VERIFICATION
+Equation and implementation verification for illustrative assumptions; not validation against measured facility or manufacturer data.
+
+PASS: Results correspond to current assumptions
+"dbc2cfd0e0b2979a9f220810d71aa113b1677fa3f917164162c2ae8dfb170543"
+
+PASS: Heat balance and power dimensions
+{"mass_flow": "kg/s", "volume_flow": "m3/s", "rho*g*Q*H": "kg m2/s3 = W", "resistance": "m/(m3/s)^2 = s2/m5", "pressure": "rho*g*H = kg/(m s2) = Pa"}
+
+PASS: IAPWS published cp check at 260.0 K
+{"expected_J_kg_K": 4300.17472, "actual_J_kg_K": 4300.1747232263}
+
+PASS: IAPWS published cp check at 298.15 K
+{"expected_J_kg_K": 4181.44618, "actual_J_kg_K": 4181.446178557689}
+
+PASS: IAPWS published cp check at 375.0 K
+{"expected_J_kg_K": 4217.74697, "actual_J_kg_K": 4217.746968938457}
+
+PASS: Rounded cp agrees with sourced correlation
+{"unrounded_J_kg_K": 4188.546017894257, "model_J_kg_K": 4188.55}
+
+PASS: Independent full-load heat balance
+{"mass_flow_kg_s": 47.74922109083096, "volume_flow_m3_s": 0.04779223410152232, "reconstructed_coil_heat_W": 1000000.0000000001}
+
+PASS: One pump design operating point, independently by substitution
+{"gross_pump_head_m": 24, "branch_loss_m": 2, "shared_header_m": 22, "shared_head_budget_m": "6 pipe/header + 4 HX + 8 coil + 4 valve = 22"}
+
+PASS: Independent full-load electrical power
+{"hydraulic_kW": 11.242076613625242, "electrical_kW": 15.110318029066184, "shaft_each_kW": 7.026297883515776, "gross_head_used_m": 24, "efficiencies": [0.8, 0.93, 1.0]}
+
+PASS: Numerical intersections agree with independent closed-form network solution
+{"max_flow_difference_m3_s": 0.0, "points_checked": 16}
+
+PASS: Pump branches balance at same header differential
+{"max_loop_head_residual_m": 7.105427357601002e-15, "max_branch_header_spread_m": 0.0, "note": "Equal flow follows the declared identical branches; this does not validate real pump matching."}
+
+PASS: Mass continuity at headers
+{"max_sum_flow_residual_m3_s": 0.0}
+
+PASS: Normal and one-unavailable cases satisfy requested flow and all declared limits
+{"normal_cases": 4, "outage_cases": 12, "outages": "Each of P1, P2 and P3 unavailable at 25, 50, 75, 100% load"}
+
+PASS: Outage cases select available pumps only
+"Failed branch assumed isolated; no check-valve leakage or standby auxiliary power."
+
+PASS: One-pump diagnostic intersection and runout flag
+{"flow_m3_h": 125.6490465166628, "fraction_of_full_load_flow": 0.7302967433402214, "per_pump_ratio_to_BEP": 1.4605934866804429, "declared_upper_limit": 1.2}
+
+PASS: Turbulent regime supports equivalent quadratic pipe model over studied points
+{"design_values": {"common": {"velocity_m_s": 1.5212740597324648, "Reynolds_number": 267118.61389783927}, "pump_branch": {"velocity_m_s": 1.9472307964575553, "Reynolds_number": 213694.89111827148}}, "note": "Conservative quarter-design Re check. Constant resistance is still an approximation; geometry/roughness not resolved."}
+
+Some independent checks intentionally use original numeric budgets. Re-derive them when editing those assumptions.

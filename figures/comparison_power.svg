@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="960" viewBox="0 0 1500 960">
+<rect width="100%" height="100%" fill="white"/>
+<text x="55" y="32" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="36" font-weight="700" fill="#303034">Pumping electricity across the cooling loads</text>
+<text x="55" y="88" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#716C67">Conceptual 1 MW loop · assumed 5 K water rise · same staging rule and required flow</text>
+<polyline points="150.00,700.00 1360.00,700.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="130" y="690.0" dominant-baseline="hanging" text-anchor="end" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">0</text>
+<polyline points="150.00,615.00 1360.00,615.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="130" y="605.0" dominant-baseline="hanging" text-anchor="end" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">3</text>
+<polyline points="150.00,530.00 1360.00,530.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="130" y="520.0" dominant-baseline="hanging" text-anchor="end" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">6</text>
+<polyline points="150.00,445.00 1360.00,445.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="130" y="435.0" dominant-baseline="hanging" text-anchor="end" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">9</text>
+<polyline points="150.00,360.00 1360.00,360.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="130" y="350.0" dominant-baseline="hanging" text-anchor="end" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">12</text>
+<polyline points="150.00,275.00 1360.00,275.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="130" y="265.0" dominant-baseline="hanging" text-anchor="end" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">15</text>
+<polyline points="150.00,190.00 1360.00,190.00" fill="none" stroke="#DED8D1" stroke-width="1"/>
+<text x="130" y="180.0" dominant-baseline="hanging" text-anchor="end" font-family="Calibri,sans-serif" font-size="21" font-weight="400" fill="#303034">18</text>
+<text x="150" y="147" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="23" font-weight="400" fill="#303034">Electrical input (kW)</text>
+<polyline points="150.00,190.00 150.00,700.00 1360.00,700.00" fill="none" stroke="#303034" stroke-width="2"/>
+<rect x="261" y="504.7834060909787" width="84" height="195.2165939090213" fill="#68455F" stroke="#68455F" stroke-width="2"/>
+<text x="303" y="469.7834060909787" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#68455F">6.890</text>
+<rect x="372" y="631.8504226794449" width="84" height="68.1495773205551" fill="#67775F" stroke="#67775F" stroke-width="2"/>
+<text x="414" y="596.8504226794449" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#67775F">2.405</text>
+<text x="340" y="722" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="24" font-weight="700" fill="#303034">40% cooling load</text>
+<rect x="676" y="334.99291621134086" width="84" height="365.00708378865914" fill="#68455F" stroke="#68455F" stroke-width="2"/>
+<text x="718" y="299.99291621134086" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#68455F">12.883</text>
+<rect x="787" y="561.1616296310989" width="84" height="138.8383703689011" fill="#67775F" stroke="#67775F" stroke-width="2"/>
+<text x="829" y="526.1616296310989" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#67775F">4.900</text>
+<text x="755" y="722" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="24" font-weight="700" fill="#303034">70% cooling load</text>
+<rect x="1091" y="271.87432250979157" width="84" height="428.12567749020843" fill="#68455F" stroke="#68455F" stroke-width="2"/>
+<text x="1133" y="236.87432250979157" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#68455F">15.110</text>
+<rect x="1202" y="295.2234100032037" width="84" height="404.7765899967963" fill="#67775F" stroke="#67775F" stroke-width="2"/>
+<text x="1244" y="260.2234100032037" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="23" font-weight="700" fill="#67775F">14.286</text>
+<text x="1170" y="722" dominant-baseline="hanging" text-anchor="middle" font-family="Calibri,sans-serif" font-size="24" font-weight="700" fill="#303034">100% cooling load</text>
+<rect x="250" y="788" width="23" height="23" fill="#68455F" stroke="#68455F" stroke-width="2"/>
+<text x="286" y="785" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#303034">Fixed speed + throttling</text>
+<rect x="800" y="788" width="23" height="23" fill="#67775F" stroke="#67775F" stroke-width="2"/>
+<text x="836" y="785" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#303034">Variable speed + pressure reset</text>
+<text x="75" y="848" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="23" font-weight="400" fill="#303034">Running pumps at 40/70/100% load: 1/2/2. Each pair of bars supplies the same required water flow.</text>
+<text x="75" y="893" dominant-baseline="hanging" text-anchor="start" font-family="Calibri,sans-serif" font-size="22" font-weight="400" fill="#716C67">VSD speeds: 66.67%, 67.78%, 96.82% of 1450 rpm. Full-load savings are small; partial-load valve losses matter.</text>
+</svg>
